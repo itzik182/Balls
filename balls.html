@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="balls.css">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="top-wrapper">
+        <div class="title">Home Assignment</div>
+        <div class="action-panel">
+            <input type="number" id="numberOfBalls" min="1" max="9">
+            <button class="btn run-btn" onclick="run()">
+                <i class="material-icons icon-left">star_rate</i>
+                RUN
+                <i class="material-icons icon-right">star_rate</i>
+            </button>
+        </div>
+    </div>
+    <canvas id="myCanvas" width="500" height="300"></canvas>
+</body>
+<script src="balls.js"></script>
+</html>

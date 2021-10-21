@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+}
+
+.top-wrapper {
+    text-align: center;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.title {
+    background-color: #555454;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.action-panel{
+    background: #E4E4E4;
+    padding: 10px;;
+}
+
+#numberOfBalls {
+    height: 32px;
+    width: 180px;
+    margin-right: 14px;
+    border: 0;
+    padding: 5px;
+    color: #555454;
+    font-size: 20px;
+}
+
+canvas {
+    box-shadow: 0px 0px 6px #000;
+    border-radius: 5px;
+}
+
+.run-btn {
+    box-shadow: inset 0px 0px 0px 4px #CBCBCC;
+    background: linear-gradient(to bottom, #E3E3E3 5%, #B0B0B0 55%);
+    background-color: #C7C7C7 !important;
+    border: 1px solid #7F7F7F;
+    color: #555555;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+.run-btn:hover {
+    background: linear-gradient(to bottom, #B0B0B0 5%, #E3E3E3 55%);
+    background-color: #C7C7C7 !important;
+}
+
+.material-icons {
+    width: 16px;
+    font-size: 16px !important;
+    color: #898887 !important;
+    vertical-align: middle;
+}
+
+.icon-left {
+    margin: 0 16px 0 5px;
+}
+
+.icon-right {
+    margin: 0 5px 0 16px;
+}
