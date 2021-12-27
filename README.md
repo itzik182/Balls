@@ -22,3 +22,4 @@ css, js, and icons).
 Pressing the “run” button will add the defined number of balls to the screen and begin the logic from above.
 Pressing the button again should not reset the balls but instead, apply the new data dynamically – Add or remove the
 needed balls and apply a new pace to each ball (again, the pace is to be decided randomly).
+![1](https://user-images.githubusercontent.com/5908985/147475755-b8128181-bfb5-4b74-822e-ee37b8f36078.PNG)
